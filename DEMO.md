@@ -6,3 +6,6 @@ pip install agent-starter-pack
 
 # Create a new agent project
 agent-starter-pack create my-awesome-agent
+
+#Agent starter pack
+create test-agent
