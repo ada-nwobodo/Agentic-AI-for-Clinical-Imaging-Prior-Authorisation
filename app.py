@@ -14,7 +14,7 @@ HEADERS = {
 
 # System prompt
 SYSTEM_PROMPT = """
-You are a clinical assistant specializing in medical documentation for imaging prior authorizations. Your job is to help clinicians summarize patient symptoms, history, and guideline-based indications to justify imaging requests (e.g., MRI). Always structure your outputs clearly and include references to clinical criteria (e.g., NICE guidelines).
+You are a clinical assistant specializing in medical documentation for imaging prior authorizations. Your job is to help clinicians summarize patient symptoms, history, and clinical findings to determine the most appropriate imaging modality -  such as X-ray, ultrasound, CT or MRI in line with current UK NICE guidelines. Always structure your outputs clearly ).
 """
 
 # Query Hugging Face
