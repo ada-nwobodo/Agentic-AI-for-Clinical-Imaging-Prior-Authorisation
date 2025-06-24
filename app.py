@@ -5,7 +5,6 @@ import os
 # Hugging Face API setup
 HF_API_KEY = os.getenv("HF_API_KEY")  # Secure way to store your token
 
-st.write("🔐 Loaded API key:", HF_API_KEY[:6] + "..." if HF_API_KEY else "❌ Not loaded")
 
 
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.3"
