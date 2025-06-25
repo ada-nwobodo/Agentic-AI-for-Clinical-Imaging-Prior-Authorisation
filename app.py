@@ -3,7 +3,7 @@ import requests
 import os
 
 # Hugging Face API setup
-HF_API_KEY = st.secrets("HF_API_KEY")  # Secure way to store my API token
+HF_API_KEY = st.secrets["HF_API_KEY"]  # Secure way to store my API token
 
 #Use HF_API_KEY where agent needs to authenticate with Hugging Face
 st.write("🔐 API Key loaded:", HF_API_KEY[:6] + "..." if HF_API_KEY else "❌ Not loaded")
