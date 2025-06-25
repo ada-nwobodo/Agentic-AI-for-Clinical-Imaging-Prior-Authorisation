@@ -3,7 +3,7 @@ import requests
 import os
 
 # Hugging Face API setup
-HF_API_KEY = os.getenv("HF_API_KEY")  # Secure way to store your token
+HF_API_KEY = st.secrets("HF_API_KEY")  # Secure way to store my API token
 
 
 
